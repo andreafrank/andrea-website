@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './custom.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 // import NavBar from './components/navbar'
@@ -8,12 +9,12 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 const App = () => {
 	return (
-		<Navbar bg="light" expand="lg">
-  		<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+		<Navbar className="color-nav" expand="lg">
+  		<Navbar.Brand href="#home">Andrea Frank</Navbar.Brand>
   		<Navbar.Toggle aria-controls="basic-navbar-nav" />
   		<Navbar.Collapse id="basic-navbar-nav">
 	    	<Nav className="mr-auto">
-	      	<Nav.Link href="#home">Home</Nav.Link>
+	      	<Nav.Link href="#home">About</Nav.Link>
 	      	<Nav.Link href="#link">Link</Nav.Link>
 		      	<NavDropdown title="Dropdown" id="basic-nav-dropdown">
 		        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
