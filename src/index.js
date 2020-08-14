@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './custom.css';
+import './navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 // import NavBar from './components/navbar'
@@ -10,7 +10,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 const App = () => {
 	return (
 		<Navbar className="color-nav" expand="lg">
-  		<Navbar.Brand href="#home">Andrea Frank</Navbar.Brand>
+  		<Navbar.Brand style={{color: '#dc136c'}} href="#home">Andrea Frank</Navbar.Brand>
   		<Navbar.Toggle aria-controls="basic-navbar-nav" />
   		<Navbar.Collapse id="basic-navbar-nav">
 	    	<Nav className="mr-auto">
@@ -26,7 +26,7 @@ const App = () => {
 	   		</Nav>
 	   		<Form inline>
 		      	<FormControl type="text" placeholder="Search" className="mr-sm-2" />
-		      	<Button variant="outline-success">Search</Button>
+		      	<Button variant="outline-success">Coming Soon</Button>
 	    	</Form>
 	  		</Navbar.Collapse>
 		</Navbar>
