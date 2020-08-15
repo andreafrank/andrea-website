@@ -11,7 +11,7 @@ const NavBar = () => {
 	  		<Navbar.Toggle aria-controls="basic-navbar-nav" />
 	  		<Navbar.Collapse id="basic-navbar-nav">
 		    	<Nav className="mr-auto">
-		      	<Nav.Link style={{color: '#abff4f'}} href="#home">About</Nav.Link>
+		      	<Nav.Link style={{color: '#abff4f'}} href="#about">About</Nav.Link>
 		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Projects</Nav.Link>
 		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Résumé</Nav.Link>
 			      	<NavDropdown title="Blogs" id="green-color">
