@@ -15,11 +15,11 @@ const NavBar = () => {
 		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Projects</Nav.Link>
 		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Résumé</Nav.Link>
 			      	<NavDropdown title="Blogs" id="green-color">
-			        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-			        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-			        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+			        <NavDropdown.Item href="#action/3.1">Coming soon</NavDropdown.Item>
+			        <NavDropdown.Item href="#action/3.2">Coming soon v.2</NavDropdown.Item>
+			        <NavDropdown.Item href="#action/3.3">Coming soon v.3</NavDropdown.Item>
 			        <NavDropdown.Divider />
-			        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+			        <NavDropdown.Item href="#action/3.4">Coming soon v.4</NavDropdown.Item>
 			      	</NavDropdown>
 		   		</Nav>
 		   		<Form inline>
