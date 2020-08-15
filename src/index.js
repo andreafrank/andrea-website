@@ -6,7 +6,6 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 import NavBar from './components/navbar'
 import About from './components/about'
 
-
 const App = () => {
 	return (
 		<>

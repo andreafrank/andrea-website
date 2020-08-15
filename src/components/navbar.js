@@ -12,7 +12,7 @@ const NavBar = () => {
 	  		<Navbar.Collapse id="basic-navbar-nav">
 		    	<Nav className="mr-auto">
 		      	<Nav.Link style={{color: '#abff4f'}} href="#about">About</Nav.Link>
-		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Projects</Nav.Link>
+		      	// <Nav.Link style={{color: '#abff4f'}} href="#link">Projects</Nav.Link>
 		      	<Nav.Link style={{color: '#abff4f'}} href="#link">Résumé</Nav.Link>
 			      	<NavDropdown title="Blogs" id="green-color">
 			        <NavDropdown.Item href="#action/3.1">Coming soon</NavDropdown.Item>
