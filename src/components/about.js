@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Container from 'bootstrap/dist/css/bootstrap.min.css';
-// import {  } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const About = () => { 
 	return (
-		<div>
+		<Card.Body>
+			<Card.Text>
 			Software engineering / UX
 
 			Other stuff I'm interested in
 
-		</div>
+			#100daysofcode thru  "this" site
+			</Card.Text>
+		</Card.Body>
 	)
 }
 
